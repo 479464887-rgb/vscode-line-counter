@@ -1,0 +1,23 @@
+{
+  "name": "vscode-line-counter",
+  "displayName": "Line Counter",
+  "version": "1.0.0",
+  "description": "Line Counter \u2014 VS Code extension",
+  "publisher": "devkit",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-line-counter.hello",
+        "title": "Line Counter: Hello"
+      }
+    ]
+  }
+}
